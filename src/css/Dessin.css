@@ -1,0 +1,88 @@
+
+.head {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 10px solid #ffff; 
+  position: absolute;
+  top: 50px;
+  right: -30px;
+}
+
+.body {
+  width: 12px;
+  height: 120px;
+  background-color: #ffff;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+
+.right-arm, .left-arm, .right-leg, .left-leg {
+  width: 120px;
+  height: 12px;
+  background-color: #ffff;
+  position: absolute;
+}
+
+.right-arm {
+  top: 150px;
+  right: -110px;
+  rotate: -30deg;
+  transform-origin: left bottom;
+}
+
+.left-arm {
+  top: 150px;
+  right: 10px;
+  rotate: 30deg;
+  transform-origin: right bottom;
+}
+
+.right-leg {
+  top: 210px;
+  right: -110px;
+  rotate: 60deg;
+  transform-origin: left bottom;
+}
+
+.left-leg {
+  top: 210px;
+  right: 0px;
+  rotate: -60deg;
+  transform-origin: right bottom;
+}
+
+.pendu {
+  position: relative;
+}
+
+
+.bois-1, .bois-2, .bois-3, .bois-4 {
+  background-color: #ffff;
+}
+
+.bois-1 {
+  height: 60px;
+  width: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bois-2 {
+  height: 12px;
+  width: 220px;
+  margin-left: 130px;
+}
+
+.bois-3 {
+  height: 450px;
+  width: 12px;
+  margin-left: 130px;
+}
+
+.bois-4 {
+  height: 12px;
+  width: 270px;
+}

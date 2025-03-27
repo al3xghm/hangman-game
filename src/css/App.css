@@ -1,0 +1,76 @@
+body {
+  background-color: #48ac7f;
+  font-family: 'Inter', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  *::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: #000;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.width {
+  width: 500px;
+}
+
+.content {
+  max-width: 1150px;
+  display: grid;
+  gap: 2rem;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+.titre {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.letter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  gap: 0.5rem;
+}
+
+.alert1,
+.alert2 {
+  color: #fff;
+  font-weight: 200;
+}
+
+button {
+  background-color: #fff;
+  color: #48ac7f;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: fit-content;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: #48ac7f;
+    color: #ffff;
+    opacity: 0.5;
+    border: 1px solid #ffff;
+  }
+}
